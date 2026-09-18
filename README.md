@@ -48,7 +48,8 @@ single set of default parameters (`BASE_PARAMS`).
 | `number_library_gallery.py` | Figure 1 (numbered template gallery) |
 | `simulate_emg_traces.py` | trace-synthesis machinery (gamma renewal discharge, pink noise, §2.8 "Trace synthesis") |
 | `simulate_and_sort_curated.py`, `spikesort_simulated_traces.py` | generates the six $K \in \{3,5,10,15,20,30\}$ simulated traces and runs/evaluates all nine feature/clustering combinations (Table "Parameters used to synthesise...", Table "Simulation sorting results") |
-| `make_manuscript_gallery_figs.py` | Figures "gallery_features", "gallery_tsne_clustering", "gallery_tsne_alltypes" |
+| `make_manuscript_gallery_figs.py` | Figure "gallery_features" |
+| `plot_isi_histograms.py` | Figures "isi_n3", "isi_n20" (actual vs. estimated ISI histograms) |
 | `plot_tsne_types.py`, `plot_tsne_voronoi.py` | clustering + fixed t-SNE Voronoi tessellation used by the merge experiment |
 | `plot_tsne_sequential_merge.py`, `plot_tsne_voronoi_merge.py`, `muap_split_refinement.py` | the sequential gap-statistic merge (§"Merging over-segmented types") |
 | `merge_effect_table.py` | Table "Effect of the fixed-Voronoi sequential gap-merge..." |
