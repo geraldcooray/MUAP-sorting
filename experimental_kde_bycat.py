@@ -103,7 +103,7 @@ def _panel(ax, amp, dur, wt, title, color, xlim, ylim, scatter_n=None):
     ax.set_xlim(*xlim)
     ax.set_ylim(*ylim)
     ax.set_title(f"{title}  (n={amp.size})", fontsize=10, color=color)
-    ax.set_xlabel("peak-to-peak amplitude (a.u.)")
+    ax.set_xlabel("peak-to-peak amplitude (µV)")
     return cf
 
 
